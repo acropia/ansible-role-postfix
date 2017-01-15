@@ -1,0 +1,15 @@
+galaxy_info:
+  author: Jan Bouma
+  description: Install and configure Postfix mail server
+  company: Acropia.nl
+  license: BSD
+  min_ansible_version: 1.2
+  platforms:
+  - name: EL
+    versions:
+    - 7
+  galaxy_tags:
+    - postfix
+    - mail
+    - smtp
+dependencies: []

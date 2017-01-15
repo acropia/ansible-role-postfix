@@ -1,0 +1,4 @@
+---
+# tasks file for app_postfix
+- name: Replace postfix config
+  template: src='main.cf.j2' dest='/etc/postfix/main.cf'
